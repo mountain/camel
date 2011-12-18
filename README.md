@@ -9,5 +9,5 @@ Please follow below steps:
  * cd YOURPROJECT
  * npm install -g camel
  * camel YOURPROGRAM
- * camel --build YOURPROGRAM.coffee (is not implemented yet)
+ * camel --build YOURPROGRAM (is not implemented yet)
 

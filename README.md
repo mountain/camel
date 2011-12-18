@@ -8,6 +8,6 @@ Please follow below steps:
  * install [npm](http://npmjs.org)
  * cd YOURPROJECT
  * npm install -g camel
- * camel YOURPROGRAM.coffee
+ * camel YOURPROGRAM
  * camel --build YOURPROGRAM.coffee (is not implemented yet)
 

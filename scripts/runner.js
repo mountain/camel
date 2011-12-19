@@ -3,9 +3,12 @@
 var path = require('path');
 
 var pwd  = process.cwd(),
-    file = process.argv[2],
-    base = path.basename(file),
-    target = path.join(pwd, base);
+    file = process.argv[2];
 
-require('../lib/camel').run(target);
+if (file) {
+    var base = path.basename(file),
+        target = path.join(pwd, base);
+
+    require('../lib/camel').run(target);
+}
 

@@ -2,7 +2,6 @@
 #
 # A wrapper for requireJs runner
 #
-
 CUR="${BASH_SOURCE[0]}";
 if([ -h "${CUR}" ]) then
   while([ -h "${CUR}" ]) do CUR=`readlink -m "${CUR}"`; done

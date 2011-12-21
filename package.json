@@ -2,7 +2,7 @@
   "author": "Mingli Yuan <mingli.yuan+camel@gmail.com> (http://onecorner.org/)",
   "name": "camel",
   "description": "A Node.js wrapper for using coffeescript with requirejs AMD-style loader",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/mountain/camel",
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "requirejs": "latest"
   },
   "devDependencies": {
+    "underscore": "latest"
   },
   "bin": {
     "camel": "./bin/camel"

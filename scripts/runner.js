@@ -5,6 +5,7 @@ var path = require('path');
 var pwd  = process.cwd(),
     file = process.argv[2],
     ext = path.extname(file),
+    args = process.argv.slice(3),
     target;
 
 if (file && ext === '.coffee') {
@@ -14,6 +15,6 @@ if (file && ext === '.coffee') {
         target = file;
     }
 
-    require('../lib/camel').run(target);
+    require('../lib/camel').run(target, args);
 }
 

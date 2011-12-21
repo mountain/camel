@@ -3,11 +3,16 @@
 var path = require('path');
 
 var pwd  = process.cwd(),
-    file = process.argv[2];
+    file = process.argv[2],
+    ext = path.extname(file),
+    target;
 
-if (file) {
-    var base = path.basename(file),
-        target = path.join(pwd, base);
+if (file && ext === '.coffee') {
+    if (file[0] !== '/') {
+        target = path.join(pwd, file);
+    } else {
+        target = file;
+    }
 
     require('../lib/camel').run(target);
 }

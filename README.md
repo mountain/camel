@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/mountain/camel.png)](http://travis-ci.org/mountain/camel)
 A Node.js wrapper for using coffeescript with requirejs AMD-style loader
 
 ## How to start

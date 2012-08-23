@@ -25,6 +25,9 @@
   "bin": {
     "camel": "./bin/camel"
   },
+  "scripts": {
+    "test": "node tests/tests.js"
+  },
   "licenses": [
     {
       "type": "MIT",

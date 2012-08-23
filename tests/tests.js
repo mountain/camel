@@ -2,7 +2,7 @@ var assert = require('assert'),
     path = require('path');
 
 function test(file, args, result) {
-    var target = path.join(process.cwd(), file);
+    var target = path.join(process.cwd(), 'tests', file);
     console.log(target);
     return require('../lib/camel').assert(target, args, result);
 }

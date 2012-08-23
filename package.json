@@ -17,7 +17,8 @@
     "scripts": "./scripts"
   },
   "dependencies": {
-    "requirejs": "latest"
+    "requirejs": "latest",
+    "coffee-script": ">=1.2.0"
   },
   "devDependencies": {
     "underscore": "latest"

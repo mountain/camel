@@ -12,3 +12,9 @@ Please follow below steps:
  * camel YOURPROGRAM.coffee
  * camel --build YOURPROGRAM.coffee (is not implemented yet)
 
+## Example
+
+You can refernece an example at
+
+  * [Wahlque weather simulation](https://github.com/Wahlque/weather)
+

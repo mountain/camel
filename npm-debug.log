@@ -1,0 +1,159 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'publish', './' ]
+info using npm@1.1.1
+info using node@v0.6.11
+verbose config file /Users/mingli/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose publish [ './' ]
+verbose caching /Users/mingli/Dev/coffee/camel/package.json
+verbose loadDefaults camel@0.0.6
+info prepublish camel@0.0.6
+verbose cache add [ './', null ]
+silly cache add: name, spec, args [ undefined, './', [ './', null ] ]
+verbose parsed url { pathname: './', path: './', href: './' }
+verbose caching package.json
+verbose loadDefaults camel@0.0.6
+verbose pack /Users/mingli/Dev/coffee/camel
+verbose pack /Users/mingli/Dev/coffee/camel /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/tmp.tgz
+silly makeList /Users/mingli/Dev/coffee/camel
+silly dir, dirLen [ '/Users/mingli/Dev/coffee/camel', 31 ]
+verbose tarball /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/tmp.tgz
+verbose parent /Users/mingli/Dev/coffee/camel
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm'
+verbose mkdir done: /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/.npmignore
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/.travis.yml
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/LICENSE
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/package.json
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/README.md
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/bin
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/bin/camel
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/lib
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/lib/camel.js
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/lib/cs.js
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/scripts
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/scripts/runner.js
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/tests
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/tests/hello.coffee
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/tests/mainArgs.coffee
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/tests/mainSimple.coffee
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/tests/mainStandard.coffee
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/tests/module.coffee
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/tests/obj.coffee
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/tests/sanity.coffee
+silly asyncMap in gTP /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel/tests/tests.js
+verbose gunzed /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel
+verbose rm'ed /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/package
+verbose renamed [ '/var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/___package.npm/camel',
+verbose renamed   '/var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/package' ]
+verbose caching /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/package/package.json
+verbose loadDefaults camel@0.0.6
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/package/package.json
+verbose pack /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/package
+verbose pack /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/package /Users/mingli/.npm/camel/0.0.6/package.tgz
+silly makeList /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/package
+silly dir, dirLen [ '/var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/package',
+silly dir, dirLen   108 ]
+verbose tarball /Users/mingli/.npm/camel/0.0.6/package.tgz
+verbose parent /var/folders/hc/zfdtw79j4px00nrzq_slym4w0000gn/T/npm-1347135705734/1347135705734-0.2709347396157682/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/mingli/.npm/camel/0.0.6/___package.npm'
+verbose mkdir done: /Users/mingli/.npm/camel/0.0.6/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/mingli/.npm/camel/0.0.6/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/.npmignore
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/.travis.yml
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/LICENSE
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/package.json
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/README.md
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/bin
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/bin/camel
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/lib
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/lib/camel.js
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/lib/cs.js
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/scripts
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/scripts/runner.js
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/tests
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/tests/hello.coffee
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/tests/mainArgs.coffee
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/tests/mainSimple.coffee
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/tests/mainStandard.coffee
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/tests/module.coffee
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/tests/obj.coffee
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/tests/sanity.coffee
+silly asyncMap in gTP /Users/mingli/.npm/camel/0.0.6/___package.npm/package/tests/tests.js
+verbose gunzed /Users/mingli/.npm/camel/0.0.6/___package.npm/package
+verbose rm'ed /Users/mingli/.npm/camel/0.0.6/package
+verbose renamed [ '/Users/mingli/.npm/camel/0.0.6/___package.npm/package',
+verbose renamed   '/Users/mingli/.npm/camel/0.0.6/package' ]
+verbose caching /Users/mingli/.npm/camel/0.0.6/package/package.json
+verbose loadDefaults camel@0.0.6
+silly updated sha bytes 5154
+info shasum f343c1c49674b4a57fdb4b20f64da580cfc18555
+info shasum /Users/mingli/.npm/camel/0.0.6/package.tgz
+verbose from cache /Users/mingli/.npm/camel/0.0.6/package/package.json
+verbose chmod /Users/mingli/.npm/camel/0.0.6/package.tgz 644
+verbose chown [ '/Users/mingli/.npm/camel/0.0.6/package.tgz', 501, 20 ]
+silly publish { author: 
+silly publish    { name: 'Mingli Yuan',
+silly publish      email: 'mingli.yuan+camel@gmail.com',
+silly publish      url: 'http://onecorner.org/' },
+silly publish   name: 'camel',
+silly publish   description: 'A Node.js wrapper for using coffeescript with requirejs AMD-style loader',
+silly publish   version: '0.0.6',
+silly publish   homepage: 'https://github.com/mountain/camel',
+silly publish   repository: { type: 'git', url: 'git://github.com/mountain/camel.git' },
+silly publish   engines: { node: '~0.6.6' },
+silly publish   directories: { bin: './bin', lib: './lib', scripts: './scripts' },
+silly publish   dependencies: { requirejs: 'latest', 'coffee-script': '>=1.2.0' },
+silly publish   devDependencies: { underscore: 'latest' },
+silly publish   bin: { camel: './bin/camel' },
+silly publish   scripts: { test: 'node tests/tests.js' },
+silly publish   licenses: 
+silly publish    [ { type: 'MIT',
+silly publish        url: 'http://github.com/mountain/camel/blob/master/LICENSE' } ],
+silly publish   _npmUser: { name: 'mountain', email: 'mingli.yuan@gmail.com' },
+silly publish   _id: 'camel@0.0.6',
+silly publish   optionalDependencies: {},
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.1.1',
+silly publish   _nodeVersion: 'v0.6.11',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: 'f343c1c49674b4a57fdb4b20f64da580cfc18555',
+silly publish      tarball: 'http://registry.npmjs.org/camel/-/camel-0.0.6.tgz' } }
+verbose raw, before any munging camel
+verbose url resolving [ 'https://registry.npmjs.org/', './camel' ]
+verbose url resolved https://registry.npmjs.org/camel
+http PUT https://registry.npmjs.org/camel
+http 409 https://registry.npmjs.org/camel
+verbose raw, before any munging camel
+verbose url resolving [ 'https://registry.npmjs.org/', './camel' ]
+verbose url resolved https://registry.npmjs.org/camel
+http GET https://registry.npmjs.org/camel
+http 200 https://registry.npmjs.org/camel
+info Already published camel@0.0.6
+verbose uploading bin dists []
+ERR! publish fail Cannot publish over existing version.
+ERR! publish fail Bump the 'version' field, set the --force flag, or
+ERR! publish fail     npm unpublish 'camel@0.0.6'
+ERR! publish fail and try again
+ERR! 
+ERR! System Darwin 11.4.0
+ERR! command "node" "/usr/local/bin/npm" "publish" "./"
+ERR! cwd /Users/mingli/Dev/coffee/camel
+ERR! node -v v0.6.11
+ERR! npm -v 1.1.1
+ERR! code EPUBLISHCONFLICT
+ERR! message publish fail
+ERR! errno {}
+verbose exit [ 1, true ]

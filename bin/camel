@@ -2,9 +2,15 @@
 #
 # A wrapper for requireJs runner
 #
+
+READLINK="readlink"
+case $OSTYPE in darwin*)
+    READLINK="greadlink"
+esac
+
 CUR="${BASH_SOURCE[0]}";
 if([ -h "${CUR}" ]) then
-  while([ -h "${CUR}" ]) do CUR=`readlink -m "${CUR}"`; done
+  while([ -h "${CUR}" ]) do CUR=`${READLINK} -m "${CUR}"`; done
 fi
 pushd . > /dev/null
 cd `dirname ${CUR}` > /dev/null

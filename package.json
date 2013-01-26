@@ -9,7 +9,7 @@
     "url": "git://github.com/mountain/camel.git"
   },
   "engines": {
-    "node": "~0.8.18"
+    "node": "~0.6.6"
   },
   "directories": {
     "bin": "./bin",

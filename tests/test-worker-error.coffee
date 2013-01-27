@@ -13,12 +13,12 @@ define [
     w = new camel.Worker(path.join("tests", "workers", "error.coffee"))
     receivedError = false
     w.onerror = (e) ->
-      assert.equal "AssertionError: true == false", e.message
+      assert.equal "AssertionError: false == true", e.message
       assert.equal e.filename.substring(e.filename.lastIndexOf("/") + 1), "error.coffee"
-      assert.equal 5, e.lineno
+      assert.equal 14, e.lineno
       receivedError = true
       w.terminate()
 
     process.addListener "exit", (e) ->
-      #assert.equal receivedError, true
+      assert.equal receivedError, true
 

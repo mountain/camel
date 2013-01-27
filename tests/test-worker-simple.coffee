@@ -32,7 +32,7 @@ define [
       baz: "bunkle"
 
     process.addListener "exit", ->
-      #assert.equal receivedMsg, true
-      #assert.equal receivedExit, true
+      assert.equal receivedMsg, true
+      assert.equal receivedExit, true
 
 

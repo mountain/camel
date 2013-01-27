@@ -5,7 +5,7 @@ A Node.js wrapper for using coffeescript with requirejs AMD-style loader
 
 Please follow below steps:
 
- * install [nodejs](http://nodejs.org), please install version >= 0.6.6
+ * install [nodejs](http://nodejs.org), please install version >= 0.8.0
  * install [npm](http://npmjs.org)
  * cd YOURPROJECT
  * npm install -g camel

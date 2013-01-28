@@ -8,7 +8,9 @@ define [
   'assert'
 ], (assert) ->
 
-    onmessage = (e) ->
+    global.onmessage = (e) ->
+      console.log "----------------------"
+      console.log "worker"
       assert.ok "data" of e
       assert.ok "foo" of e.data
       assert.equal e.data.foo, "bar"
@@ -17,5 +19,6 @@ define [
         msg[e.data[k]] = k
       postMessage msg
 
-    onclose = ->
+    global.onclose = ->
       process.exit 0
+

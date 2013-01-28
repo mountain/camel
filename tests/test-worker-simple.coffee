@@ -16,6 +16,8 @@ define [
     w = new camel.Worker(path.join("tests", "workers", "simple.coffee"))
 
     w.onmessage = (e) ->
+      console.log "----------------------"
+      console.log "master"
       assert.ok "data" of e
       assert.equal e.data.bar, "foo"
       assert.equal e.data.bunkle, "baz"

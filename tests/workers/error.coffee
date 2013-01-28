@@ -11,4 +11,3 @@ define [
     setTimeout (->
       assert.ok false
     ), 5000
-

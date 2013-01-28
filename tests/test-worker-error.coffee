@@ -10,7 +10,7 @@ define [
   '../lib/camel'
 ], (assert, path, camel) ->
 
-    w = new camel.Worker(path.join("tests", "workers", "error.coffee"))
+    w = new Worker(path.join("tests", "workers", "error.coffee"))
     receivedError = false
     w.onerror = (e) ->
       assert.equal "AssertionError: false == true", e.message

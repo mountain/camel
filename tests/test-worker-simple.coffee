@@ -13,15 +13,16 @@ define [
     receivedMsg = false
     receivedExit = false
 
-    w = new camel.Worker(path.join("tests", "workers", "simple.coffee"))
+    w = new Worker(path.join("tests", "workers", "simple.coffee"))
 
     w.onmessage = (e) ->
-      console.log "----------------------"
-      console.log "master"
       assert.ok "data" of e
       assert.equal e.data.bar, "foo"
       assert.equal e.data.bunkle, "baz"
       receivedMsg = true
+      w.terminate()
+
+    w.onerror = (e) ->
       w.terminate()
 
     w.onexit = (c, s) ->

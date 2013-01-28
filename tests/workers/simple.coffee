@@ -6,19 +6,20 @@
 ###
 define [
   'assert'
-], (assert) ->
+  'util'
+], (assert, util) ->
 
-    global.onmessage = (e) ->
-      console.log "----------------------"
-      console.log "worker"
+    self.onmessage = (e) ->
       assert.ok "data" of e
       assert.ok "foo" of e.data
       assert.equal e.data.foo, "bar"
       msg = {}
       for k of e.data
         msg[e.data[k]] = k
-      postMessage msg
+      self.postMessage msg
 
-    global.onclose = ->
-      process.exit 0
+    self.onclose = ->
+        process.exit 0
+
+    console.log("")
 

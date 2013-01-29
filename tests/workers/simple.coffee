@@ -6,8 +6,7 @@
 ###
 define [
   'assert'
-  'util'
-], (assert, util) ->
+], (assert) ->
 
     self.onmessage = (e) ->
       assert.ok "data" of e

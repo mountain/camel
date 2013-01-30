@@ -20,5 +20,5 @@ define [
     self.onclose = ->
         process.exit 0
 
-    console.log("")
+    true
 

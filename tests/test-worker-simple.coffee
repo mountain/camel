@@ -10,8 +10,9 @@ define [
   '../lib/camel'
 ], (assert, path, camel) ->
 
-    receivedMsg = false
+    receivedMsg  = false
     receivedExit = false
+    receivedErr  = false
 
     w = new Worker(path.join("tests", "workers", "simple.coffee"))
 
@@ -23,6 +24,7 @@ define [
       w.terminate()
 
     w.onerror = (e) ->
+      receivedErr = true
       w.terminate()
 
     w.onexit = (c, s) ->
@@ -35,7 +37,7 @@ define [
       baz: "bunkle"
 
     process.addListener "exit", ->
+      assert.equal receivedErr, false
       assert.equal receivedMsg, true
       assert.equal receivedExit, true
-
 

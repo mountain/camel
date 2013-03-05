@@ -17,12 +17,12 @@
     "scripts": "./scripts"
   },
   "dependencies": {
-    "requirejs": "2.1.4",
-    "coffee-script": "1.4.0",
+    "requirejs": "2.1.5",
+    "coffee-script": "1.6.1",
     "websocket": "1.0.8"
  },
   "devDependencies": {
-    "underscore": "1.4.3"
+    "underscore": "1.4.4"
   },
   "bin": {
     "camel": "./bin/camel"

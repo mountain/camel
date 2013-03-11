@@ -4,7 +4,8 @@ A server-side coffeescript environment with
   * first-class requirejs AMD-style loader
   * server-side WebWorkers supports
 
-The goal of this project is to minmalize the distance between client-side and server-side under the umbrella of AMD loader. 
+The goal of this project is to minmalize the distance between client-side and server-side webdev under the umbrella
+of AMD loader. 
 
 ## How to start
 

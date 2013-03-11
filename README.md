@@ -1,5 +1,10 @@
 [![build status](https://secure.travis-ci.org/mountain/camel.png)](http://travis-ci.org/mountain/camel)
-A Node.js wrapper for using coffeescript with requirejs AMD-style loader
+A server-side coffeescript environment with
+
+  * first-class requirejs AMD-style loader
+  * server-side WebWorkers supports
+
+The goal of this project is to minmalize the distance between client-side and server-side under the umbrella of AMD loader. 
 
 ## How to start
 
